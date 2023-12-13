@@ -64,15 +64,35 @@ body {
 }
 
 #starter {
-    text-align: center;
     padding-top: 10%;
+    margin-left: 50px;
     font-size: 28px;
-    color: var(--light-green-shade)
+    color: var(--white-shade)
 }
 
 .row {
+    width: 80%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
 }
 
+label {
+    display: block;
+    font-size: 12px;
+    color: var(--warm-light-grey);
+    text-align: left;
+}
+
+input {
+    background-color: var(--classic-dark-grey);
+    height: 24px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid var(--medium-grey);
+}
+
+.row > div {
+    margin: 12px;
+}
