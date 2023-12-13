@@ -1,0 +1,65 @@
+:root {
+    --paste-light-green: #A9DFBF;
+    --light-green-shade: #6DBE45;
+    --vibrant-light-green: #8DC63F;
+
+    --pure-white: #FFFFFF;
+    --white-shade: #F5F5F5;
+    --cool-white: #ECF0F1;
+
+    --dark-green-deep: #2E6E3E;
+    --dark-green-forest: #00441B;
+    --dark-green-muted: #1F3A2D;
+
+    --classic-dark-grey: #333333;
+    --medium-grey: #666666;
+    --warm-light-grey: #BDBDBD;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.image-container {
+    width: 40%;
+    height: 100%;
+    bottom: #eee;
+    background-color: var(--warm-light-grey);
+
+}
+
+.form-container {
+    width: 60%;
+    background-color: #ccc;
+}
+
+#image {
+    margin-top: 30%;
+}
+
+.image-container > p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    
+}
+
+#title {
+    font-size: 22px;
+    padding-left: 16px;
+    color: var(--dark-green-forest);
+}
+
+#sentence {
+    font-size: 14px;
+    padding-left: 8px;
+    padding-top: 40%;
+    text-align: center;
+    color: var(--dark-green-deep)
+}
+
