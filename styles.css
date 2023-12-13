@@ -40,7 +40,7 @@ body {
     margin-top: 20px;
 }
 
-.image-container > p {
+.image-container>p {
     font-weight: bold;
 }
 
@@ -93,6 +93,24 @@ input {
     border-bottom: 1px solid var(--medium-grey);
 }
 
-.row > div {
+.row>div {
     margin: 12px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-left: 50px;
+}
+
+button:hover {
+    background-color: #999;
+    color: #fff;
 }
