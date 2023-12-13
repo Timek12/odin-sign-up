@@ -14,6 +14,8 @@
     --classic-dark-grey: #333333;
     --medium-grey: #666666;
     --warm-light-grey: #BDBDBD;
+
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -34,19 +36,12 @@ body {
 
 }
 
-.form-container {
-    width: 60%;
-    background-color: #ccc;
-}
-
 #image {
-    margin-top: 30%;
+    margin-top: 20px;
 }
 
 .image-container > p {
-    font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    
 }
 
 #title {
@@ -56,10 +51,28 @@ body {
 }
 
 #sentence {
+    position: sticky;
     font-size: 14px;
-    padding-left: 8px;
-    padding-top: 40%;
     text-align: center;
+    padding-top: 2px;
     color: var(--dark-green-deep)
+}
+
+.form-container {
+    width: 60%;
+    background-color: var(--classic-dark-grey);
+}
+
+#starter {
+    text-align: center;
+    padding-top: 10%;
+    font-size: 28px;
+    color: var(--light-green-shade)
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
