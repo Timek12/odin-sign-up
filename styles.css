@@ -47,7 +47,7 @@ body {
 #title {
     font-size: 22px;
     padding-left: 16px;
-    color: var(--dark-green-forest);
+    color: var(--classic-dark-grey);
 }
 
 #sentence {
@@ -55,7 +55,7 @@ body {
     font-size: 14px;
     text-align: center;
     padding-top: 2px;
-    color: var(--dark-green-deep)
+    color: var(--medium-grey)
 }
 
 .form-container {
@@ -79,7 +79,7 @@ body {
 
 label {
     display: block;
-    font-size: 12px;
+    font-size: 10px;
     color: var(--warm-light-grey);
     text-align: left;
 }
@@ -91,6 +91,15 @@ input {
     box-sizing: border-box;
     border: none;
     border-bottom: 1px solid var(--medium-grey);
+    color: var(--white-shade)
+}
+
+input:focus {
+    border-color: var(--light-green-shade);
+}
+
+input.error {
+    border-color: red;
 }
 
 .row>div {
